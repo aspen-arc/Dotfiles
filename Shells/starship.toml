@@ -18,7 +18,7 @@ error_symbol = "[󰁔](bold green)"
 
 # Home icon instead of '~' 🏠
 [directory]
-home_symbol = '󰋜'
+home_symbol = ' 󰋜 '
 
 # Get rid of ugly "took 1m" ⏰
 [cmd_duration]
