@@ -25,15 +25,9 @@ starship init fish | source
 alias fishconfig="/usr/local/bin/nvim $HOME/.config/fish/config.fish"
 alias reloadfish="source $HOME/.config/fish/config.fish"
 
-# Brew 🍺
-alias brewin="brew install"
-alias brewcin="brew install --cask"
-alias brewup="brew update; brew upgrade"
-alias brewupd="brew update"
-alias brewupg="brew upgrade"
-alias brewrm="brew remove"
-alias brewln="brew link"
-alias brewuln="brew unlink"
+# Sudo -s instead of su and sudo 🦸
+alias su='sudo -s'
+alias sudo='sudo -s'
 
 # Tree/List 🌲
 alias ls="exa -Ga --icons"
