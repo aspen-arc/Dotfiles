@@ -21,15 +21,9 @@ eval "$(starship init bash)"
 alias bashconfig="/usr/local/bin/nvim $HOME/.bashrc"
 alias reloadbash="source $HOME/.bashrc"
 
-# Brew 🍺
-alias brewin="brew install"
-alias brewcin="brew install --cask"
-alias brewup="brew update; brew upgrade"
-alias brewupd="brew update"
-alias brewupg="brew upgrade"
-alias brewrm="brew remove"
-alias brewln="brew link"
-alias brewuln="brew unlink"
+# Sudo -s instead of su and sudo 🦸
+aliases['su'] = 'sudo -s'
+aliases['sudo'] = 'sudo -s'
 
 # Tree/List 🌲
 alias ls="exa -Ga --icons"
