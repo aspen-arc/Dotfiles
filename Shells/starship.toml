@@ -1,0 +1,26 @@
+# My starship config for macOS
+#  ／l、
+#（ﾟ､ ｡７
+#⠀ l、ﾞ~ヽ
+#  じし(_,)ノ
+
+# Compact for better workflow 👓
+add_newline = false
+
+# One line prompt because two line prompts dont look good 🗑️
+[line_break]
+disabled = true
+
+# This is why you need nerd font 🤓
+[character]
+success_symbol = "[󰁔](bold green)"
+error_symbol = "[󰁔](bold green)"
+
+# Home icon instead of '~' 🏠
+[directory]
+home_symbol = '󰋜'
+
+# Get rid of ugly "took 1m" ⏰
+[cmd_duration]
+min_time = 0
+format = ''
