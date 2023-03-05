@@ -33,16 +33,6 @@ execx($(starship init xonsh))
 aliases['xonshrc'] = '/usr/local/bin/nvim $HOME/.xonshrc'
 aliases['reloadxonsh'] = 'source $HOME/.xonshrc'
 
-# Brew 🍺
-aliases['brewin'] = 'brew install'
-aliases['brewcin'] = 'brew install --cask'
-aliases['brewup'] = 'brew update && brew upgrade'
-aliases['brewupd'] = 'brew update'
-aliases['brewupg'] = 'brew upgrade'
-aliases['brewrm'] = 'brew remove'
-aliases['brewln'] = 'brew link'
-aliases['brewuln'] = 'brew unlink'
-
 # Sudo -s instead of su and sudo 🦸
 aliases['su'] = 'sudo -s'
 aliases['sudo'] = 'sudo -s'
