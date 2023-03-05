@@ -6,6 +6,9 @@
 
 #########################################
 
+## Get rid of the annoying logfile thingy 🙄
+$XONSH_SHOW_TRACEBACK = False
+
 ## Set path for /usr/local/bin aka brew 🍻
 $PATH = ['/usr/local/bin', '/usr/bin', '/bin', '/usr/bin', '/sbin']
 
