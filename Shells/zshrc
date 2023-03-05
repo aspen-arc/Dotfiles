@@ -25,8 +25,8 @@ alias zshconfig="/usr/local/bin/nvim $HOME/.zshrc"
 alias reloadzsh="source $HOME/.zshrc"
 
 # Sudo -s instead of su and sudo 🦸
-aliases['su'] = 'sudo -s'
-aliases['sudo'] = 'sudo -s'
+alias su='sudo -s'
+alias sudo='sudo -s'
 
 # Tree/List 🌲
 alias ls="exa -Ga --icons"
