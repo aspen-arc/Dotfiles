@@ -18,6 +18,9 @@ $XONSH_HISTORY_BACKEND = 'sqlite'
 ## Default stuff 💾
 $EDITOR = '/usr/local/bin/nvim'
 
+## Get rid of auto suggest ✍️
+$AUTO_SUGGEST = false
+
 ## Cowsay 🍔
 fortune -s | cowsay -f moose | lolcat --seed=100
 
